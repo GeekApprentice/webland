@@ -41,3 +41,7 @@ img {
 .ukeleles {
   border: solid 1px green;
 }
+
+.btn {
+  align-items: center;
+}
