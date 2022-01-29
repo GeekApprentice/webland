@@ -34,6 +34,17 @@ img {
   height: 100px;
 }
 
+#how-it-works {
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+}
+
+iframe {
+  width: 500px;
+}
+
+
 #pricing {
   display: flex;
   justify-content: space-around;
@@ -51,6 +62,7 @@ img {
 }
 
 .type {
+  position: relative;
   text-align: center;
   color: white;
   background-color: black;
@@ -64,4 +76,19 @@ h3 {
 .boton {
   background-color: #EFF000;
   display: flex;
+}
+
+footer {
+  margin: 0;
+  position: relative;
+}
+
+footer > ul {
+  margin: 0 10px 10px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer li {
+  margin: 0 10px auto  0;
 }
