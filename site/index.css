@@ -92,3 +92,8 @@ footer > ul {
 footer li {
   margin: 0 10px auto  0;
 }
+
+span {
+  display: flex;
+  justify-content: flex-end;
+}
