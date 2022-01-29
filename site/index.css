@@ -89,7 +89,7 @@ footer > ul {
   justify-content: flex-end;
 }
 
-footer li {
+footer > li {
   margin: 0 10px auto  0;
 }
 
