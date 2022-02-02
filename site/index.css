@@ -12,24 +12,35 @@ body {
 header {
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   top: 0px;
   width: 100%;
   background-color: #EFF000;
 }
 
-#for-form {
+#nav-bar > ul {
   display: flex;
+  justify-content: flex-end;
 }
 
-ul {
+#nav-bar > ul > li {
+  margin: 50px 20px 20px auto;
 }
 
-li {
+#for-form {
+  margin: 100px auto 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+li, a {
+  text-decoration: none;
   list-style: none;
 }
 
 img {
+  margin-left: 100px;
   width: 100px;
   height: 100px;
 }
@@ -57,6 +68,7 @@ iframe {
   justify-content: space-between;
   width: 300px;
   height: 250px;
+  border-style: outset;
   background-color: #f4f2a4;
 }
 
@@ -74,22 +86,20 @@ h3 {
 
 .boton {
   background-color: #EFF000;
-  display: flex;
 }
 
-footer {
-  margin: 0;
-  position: relative;
+.boton:hover {
+  background-color: #EFFF00;
 }
 
 footer > ul {
-  margin: 0 10px 10px auto;
+  margin-top: 200px;
   display: flex;
   justify-content: flex-end;
 }
 
-footer > li {
-  margin: 0 10px auto  0;
+footer > ul > li {
+  margin: 0 20px 20px 0;
 }
 
 span {
