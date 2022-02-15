@@ -34,7 +34,8 @@ header {
 }
 
 
-li, a {
+li,
+ a {
   text-decoration: none;
   list-style: none;
 }
